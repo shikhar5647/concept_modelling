@@ -50,7 +50,7 @@ def extract_concepts(findings: str, model: str = None, api_key: str = None) -> s
     else:
         genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-    chosen_model = model or os.getenv("GEMINI_MODEL", "gemini-1.5-pro")
+    chosen_model = model or os.getenv("GEMINI_MODEL", "gemini-2.5-pro")
 
     user_prompt = USER_TEMPLATE.format(
         FINDINGS=findings.strip(),
