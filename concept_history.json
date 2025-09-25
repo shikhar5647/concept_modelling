@@ -9,5 +9,43 @@
       "*   Normal heart size",
       "*   Normal mediastinal contours"
     ]
+  },
+  {
+    "findings": "There is minimal patchy opacity in the anterior inferior right upper lobe and early pneumonia cannot be excluded. No effusion is seen. Mediastinal contours are stable. The heart is within normal limits in size. No bony abnormality is seen.",
+    "concepts": [
+      "*   Minimal patchy opacity",
+      "*   Anterior inferior right upper lobe",
+      "*   Early pneumonia",
+      "*   No effusion",
+      "*   Mediastinal contours are stable",
+      "*   Heart within normal limits in size",
+      "*   No bony abnormality"
+    ]
+  },
+  {
+    "findings": "Since that time, the bilateral pleural effusions have nearly completely resolved, with only a small right effusion persisting. There has been improvement in aeration in the lower lobes, with only mild residual atelectasis. The lungs remain clear otherwise. The right arm PICC tip remains in the upper SVC. The heart size is normal and stable. The thoracic aorta is tortuous but unchanged.",
+    "concepts": [
+      "*   Resolved bilateral pleural effusions",
+      "*   Small right effusion",
+      "*   Improved aeration in the lower lobes",
+      "*   Mild residual atelectasis",
+      "*   Clear lungs",
+      "*   Right arm PICC tip in the upper SVC",
+      "*   Normal heart size",
+      "*   Tortuous thoracic aorta"
+    ]
+  },
+  {
+    "findings": "Lungs are adequately inflated with mild prominence of the perihilar markings and peribronchial thickening. No definite focal airspace consolidation or effusion. Cardiothymic silhouette, bones and soft tissues are within normal.",
+    "concepts": [
+      "*   Adequately inflated lungs",
+      "*   Mild prominence of the perihilar markings",
+      "*   Peribronchial thickening",
+      "*   No focal airspace consolidation",
+      "*   No effusion",
+      "*   Normal cardiothymic silhouette",
+      "*   Normal bones",
+      "*   Normal soft tissues"
+    ]
   }
 ]

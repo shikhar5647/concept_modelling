@@ -1,8 +1,15 @@
 import os
 import google.generativeai as genai
 
-# Configure Gemini with your API key
-genai.configure(api_key="AIzaSyBRvctJi2KCo0LT_VHdhWDDoIjw17TUew8")
+# Configure Gemini with API key from environment
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+
+if not GEMINI_API_KEY:
+    raise RuntimeError(
+        "GEMINI_API_KEY environment variable is not set. Please set it before running the app."
+    )
+
+genai.configure(api_key=GEMINI_API_KEY)
 
 def extract_concepts(findings: str) -> list:
     """
